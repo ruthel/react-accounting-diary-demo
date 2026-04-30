@@ -1,9 +1,12 @@
 # Roadmap — react-accounting-diary
 
-## v2.3.1 — Quick wins
-- [ ] Deploy live demo on Vercel (react-accounting-diary-demo.vercel.app)
-- [ ] Add screenshot/GIF in README (replace TODO placeholder)
-- [ ] Add demo link in README
+## v2.3.1 — Quick wins ✅
+- [x] Deploy live demo on Vercel (react-accounting-diary-demo.vercel.app)
+- [x] Add demo link in README
+- [x] Fix default locale to en-US (was fr-FR/de-DE)
+- [x] Fix default currency to USD (was XAF)
+- [x] Move dev-to-article.md to demo project
+- [ ] Add screenshot/GIF in README
 
 ## v2.4.0 — UX & Productivity
 - [ ] Transaction templates (rent, salary, etc.) — reusable presets
@@ -16,7 +19,7 @@
 - [ ] Reconciliation — mark transactions as reconciled
 
 ## Marketing & Growth
-- [ ] Publish dev.to article (draft exists in repo)
+- [ ] Publish dev.to article (draft ready in demo repo)
 - [ ] Post on r/reactjs with demo GIF
 - [ ] Add `good first issue` labels on GitHub
 - [ ] Answer StackOverflow questions related to "react accounting"
