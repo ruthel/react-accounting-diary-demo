@@ -64,10 +64,12 @@
 - [x] Drag & drop import — drop CSV/JSON files onto the component
 - [x] Filter dropdown — filter by account/category (in addition to text search)
 
-### v2.5.0 — Pro Features
-- [ ] Mini chart — debit/credit visualization by month (`showChart` prop)
-- [ ] Multi-journal support (purchases, sales, bank, cash)
-- [ ] Reconciliation — mark transactions as reconciled
+### v2.5.0 — Reconciliation and Period Summaries ✅
+- [x] Standalone and integrated debit/credit charts (`PeriodChart` / `showPeriodChart`)
+- [x] Day/month/year summaries and balance per currency
+- [x] Reconciliation and All / Reconciled / Unreconciled filters
+- [x] Headless and ref APIs with validation and undo/redo
+- [x] Demo modes: table only, chart only, both combined
 
 ---
 
@@ -77,6 +79,7 @@
 - [ ] Virtualization (react-virtual) — handle thousands of rows without lag
 
 ### Data & Accounting
+- [ ] Multi-journal support (purchases, sales, bank, cash)
 - [ ] Recurring transactions — `recurrence` field for periodic entries (monthly, weekly, etc.)
 - [ ] Multi-currency conversion — exchange rates + automatic total conversion
 - [ ] Chart of accounts presets — OHADA, SYSCOHADA, IFRS, PCG templates

@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "react": "^19.2.4",
-    "react-accounting-diary": "^2.4.0",
+    "react-accounting-diary": "2.5.0",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
